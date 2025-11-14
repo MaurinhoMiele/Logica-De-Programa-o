@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    cadeia listaDeCompras[100]
+    inteiro contador , quantidade
+
+    escreva("Digite a quantidade de produtos: ")
+    leia(quantidade)
+    
+    para(contador=0;contador<quantidade;contador++){
+      escreva("Digite o produto " , contador+1 , " : ")
+      leia(listaDeCompras[contador])
+    }
+    escreva("Sua lista de produtos: \n")
+    para(contador=0;contador<quantidade;contador++){
+      escreva(listaDeCompras[contador])
+      escreva("\n")
+    }
+  }
+}

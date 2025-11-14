@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro pais 
+
+    escreva("Digite um número entre (1-3): ")
+    leia(pais)
+
+    escolha(pais){
+      caso 1:
+        escreva("Brasil\n")
+      pare
+
+      caso 2:
+        escreva("Portugal\n")
+      pare
+
+      caso 3:
+        escreva("Uruguai\n")
+      pare
+
+      caso contrario:
+        escreva("Número inválido. Digite um número entre 1 e 3.\n")
+    }
+  }
+}

@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro temperatura
+
+    escreva("Digite quantos graus esta fazendo: ")
+    leia(temperatura)
+
+    se(temperatura<20){
+      escreva("Coloque um casaco, esta frio! ")
+    }senao{
+      escreva("Está um clima agradável! ")
+    }
+  }
+}

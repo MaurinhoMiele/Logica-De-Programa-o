@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro numeroUm , numeroDois , resultado
+
+    numeroUm = 10
+    numeroDois = 20
+    somar(numeroUm, numeroDois)
+    resultado = somar(numeroUm, numeroDois)
+    escreva(resultado)
+  }
+
+  funcao inteiro somar(inteiro x, inteiro y){
+    inteiro soma = x +y
+    retorne soma
+  }
+}

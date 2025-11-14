@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro idade = 18
+
+    validaIdade(idade)
+  }
+
+  funcao validaIdade(inteiro idade){
+    se(idade<18){
+      escreva("Você é menor de idade!")
+    }senao{
+      escreva("Você é maior de idade!")
+    }
+  }
+}

@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real notas[4]
+
+    notas[0] = 6.5
+    notas[1] = 7.8
+    notas[2] = 8.5
+    notas[3] = 9.8
+
+    escreva(notas[1])
+    
+  }
+}

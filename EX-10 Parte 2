@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    cadeia paises[3]
+    inteiro contador
+
+    paises[0] = "Brasil"
+    paises[1] = "Portugal"
+    paises[2] = "Uruguai"
+
+    para(contador=0;contador<3;contador++){
+      escreva(paises[contador])
+      escreva("\n")
+    }
+  }
+}

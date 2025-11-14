@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro tabuada 
+    inteiro contador 
+
+    escreva("Digite um número que você quer ta tabuada: ")
+    leia(tabuada)
+
+    para(contador=0;contador<=10;contador++ ){
+      escreva(tabuada, " X " , contador , " = " , tabuada * contador)
+      escreva("\n")
+    }
+  }
+}

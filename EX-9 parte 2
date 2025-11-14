@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro contador
+    inteiro numero
+
+    para(numero=0;numero<=10;numero++){
+      escreva("A tabuada do " ,numero ,":\n" )
+    
+
+    para(contador=0;contador<=10;contador++){
+      escreva(numero, " X " , contador , " = ", numero*contador , "\n")
+    }
+      escreva("\n")
+    }
+  }
+}

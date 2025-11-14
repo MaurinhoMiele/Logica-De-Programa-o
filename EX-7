@@ -1,0 +1,121 @@
+programa {
+  funcao inicio() {
+    cadeia sigla
+
+    escreva("Digite uma sigla do estado cadastrado: ")
+    leia(sigla)
+
+    escolha(sigla){
+      caso "RJ":
+        escreva("Rio De Janeiro")
+      pare
+
+      caso "SP":
+        escreva("São Paulo")
+      pare
+
+      caso "MG":
+        escreva("Minas Gerais")
+      pare
+
+      caso "ES":
+        escreva("Espírito Santo")
+      pare
+
+      caso "PR":
+        escreva("Paraná")
+      pare
+
+      caso "RS":
+        escreva("Rio Grande Do Sul")
+      pare
+
+      caso "SC":
+        escreva("Santa Catarina")
+      pare
+
+      caso "DF":
+        escreva("Distrito Federal")
+      pare
+
+      caso "GO":
+        escreva("Goiás")
+      pare
+
+      caso "MT":
+        escreva("Mato Grosso")
+      pare
+
+      caso "MS":
+        escreva("Mato Grosso Do Sul")
+      pare
+
+      caso "AL":
+        escreva("Alagoas")
+      pare
+
+      caso "BA":
+        escreva("Bahia")
+      pare
+
+      caso "CE":
+        escreva("Ceará")
+      pare
+
+      caso "MA":
+        escreva("Maranhão")
+      pare
+
+      caso "PB":
+        escreva("Paraíba")
+      pare
+
+      caso "PE":
+        escreva("Pernambuco")
+      pare
+
+      caso "PI":
+        escreva("Piauí")
+      pare
+
+      caso "RN":
+        escreva("Rio Grande Do Norte")
+      pare
+
+      caso "SE":
+        escreva("Sergipe")
+      pare
+
+      caso "AC":
+        escreva("Acre")
+      pare
+
+      caso "AP":
+        escreva("Amapá")
+      pare
+
+      caso "AM":
+        escreva("Amazonas")
+      pare
+
+      caso "PA":
+        escreva("Pará")
+      pare
+
+      caso "RO":
+        escreva("Rondônia")
+      pare
+
+      caso "RR":
+        escreva("Roraima")
+      pare
+
+      caso "TO":
+        escreva("Tocantins")
+      pare
+
+      caso contrario:
+        escreva("Digite uma Sigla cadastrada! ")
+    }
+  }
+}
